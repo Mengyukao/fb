@@ -1,0 +1,100 @@
+.App {
+    text-align: center;
+    background-color: #e9ebee;
+    min-height: 100vh;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #3b5998;
+    height: 42px;
+    color: white;
+}
+
+.App-header-container {
+    width: 1012px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    font-size: 13px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.App-header-search {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: flex-start;
+}
+
+.bluebar-logo {
+    margin: 7px 0;
+    margin-left: -2px;
+    margin-right: 5px;
+    font-size: 15px;
+    padding: 0;
+}
+
+.blue_bar_fb_logo {
+    background-image: url(https://www.facebook.com/rsrc.php/v3/yr/r/ipAdKbmS4kQ.png);
+    background-repeat: no-repeat;
+    background-size: 25px 193px;
+    background-position: 0 0;
+    display: block;
+    height: 24px;
+    outline: none;
+    overflow: hidden;
+    text-indent: -999px;
+    white-space: nowrap;
+    width: 24px;
+}
+
+.App-header-fb {
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.App-body {
+    box-sizing: border-box;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+    max-width: 1012px;
+    width: 100%;
+    margin: auto;
+}
+
+.App-body-left {
+    width: 180px;
+    text-align: right;
+}
+.App-body-middle {
+    flex-grow: 2;
+    flex-shrink: 2;
+    padding: 0 12px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.App-body-right {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+ul {
+    list-style-type: none;
+}

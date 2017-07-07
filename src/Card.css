@@ -1,0 +1,89 @@
+.Card {
+    display: flex;
+    word-wrap: break-word;
+    border-color: transparent;
+    border-left-width: 0;
+    border-right-width: 0;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.Card-container {
+    padding: 12px 12px 0;
+    width: 100%;
+}
+
+.Card-header {
+    height: 46px;
+    display: flex;
+}
+
+.Card-name {
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-left: 8px;
+    text-align: left;
+}
+
+.Card-name-name {
+    color: #365899;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 1.38;
+}
+
+.Card-name-time {
+    color: #90949c;
+    font-size: 13px;
+}
+
+.Card-content {
+    font-size: 25px;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin: 7px 0 7px 0;
+    text-align: left;
+}
+
+.Card-share {
+    border-top: 1px solid #e5e5e5;
+    margin: 0 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: left;
+}
+
+.Card-share a {
+    color: #4b4f56;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 14px;
+    margin-right: 20px;
+    padding: 4px 4px 4px 0;
+}
+
+.Card-share a::before {
+    background-image: url(https://www.facebook.com/rsrc.php/v3/yO/r/BYMxz-2hKwf.png);
+    background-repeat: no-repeat;
+    background-size: 49px 162px;
+    background-position: -34px -113px;
+    position: relative;
+    top: -1px;
+    content: '';
+    display: inline-block;
+    height: 14px;
+    margin: 0 6px -3px 0;
+    width: 14px;
+}
+.Card-share .comment::before {
+    background-repeat: no-repeat;
+    background-size: 49px 162px;
+    background-position: -34px -98px;
+}
